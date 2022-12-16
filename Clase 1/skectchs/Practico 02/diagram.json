@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 34, "left": -1.34, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 38.8,
+      "left": -89.4,
+      "attrs": { "color": "limegreen" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -27.67,
+      "left": 15.74,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 248.27,
+      "left": -88.28,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": 320.07, "left": -224.13, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.2", "black", [ "v103.19", "h51.21", "v-0.99" ] ],
+    [ "esp:3V3", "btn1:1.r", "red", [ "h48.7", "v-218.5" ] ],
+    [ "btn1:2.r", "esp:D23", "orange", [ "h42.59", "v65" ] ],
+    [ "led1:A", "esp:D13", "gold", [ "v0" ] ],
+    [ "esp:VIN", "lcd1:VCC", "red", [ "h-112.86", "v87.94" ] ],
+    [ "esp:GND.1", "lcd1:GND", "black", [ "h14.18", "v50.95", "h-196.42" ] ],
+    [ "esp:D21", "lcd1:SDA", "blue", [ "v-66.91", "h-224.01", "v269.28" ] ],
+    [ "lcd1:SCL", "esp:D22", "green", [ "v-66.11", "h209.57", "v-174.66" ] ],
+    [ "relay1:VCC", "esp:VIN", "red", [ "h-0.44", "v-146.57" ] ],
+    [ "relay1:GND", "esp:GND.2", "black", [ "h-5.78", "v-166.07" ] ],
+    [ "relay1:IN", "esp:D26", "yellow", [ "h-11.78", "v-223.47" ] ]
+  ],
+  "dependencies": {}
+}
