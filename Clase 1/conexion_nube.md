@@ -1,2 +1,2 @@
-# Internet de las cosas
-## Conexión con la Nube - Próxima clase...
+# Conexión con la Nube
+## 

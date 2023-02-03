@@ -115,8 +115,3 @@ Para **comunicación Serie**
 >* Desarrollar un sketch que permita encender/apagar un LED utilizando un pulsador.
 >* Agregar al sketch la posibilidad de mostrar mediante una pantalla LCD (16x2) que muestre el estado del LED (cadenas: ENCENDIDO!/APAGADO! respectivamente)
 Para ver el código de la solución acceder a esta carpeta: [Práctico 02](skectchs/Practico%2002/)
-
-
-> Caso práctico 03:
-> * Tomando el skectch anterior, refactorizarlo para soportar un relay que permita habilitar/deshabilitar el paso de corriente.
-> * Adicionalmente crear un servidor Web que permita encender el el relay de manera remota utilizando la conexión WIFI a la red local. Para ver el código de la solución acceder a esta carpeta: [Práctico 03](skectchs/Practico%2003/)
