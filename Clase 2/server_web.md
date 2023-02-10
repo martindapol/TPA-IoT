@@ -71,6 +71,5 @@ if(client){
 ## Ejercitación
 
 > Caso práctico 03:
-> * Tomando el skectch del caso práctico 02, refactorizarlo para soportar un relay que permita habilitar/deshabilitar el paso de corriente.
-> * Adicionalmente crear un servidor Web que permita encender el el relay de manera remota utilizando la conexión WIFI a la red local. Para ver el código de la solución acceder a esta carpeta: [Práctico 03](sketchs/Practico%2003/)
+> * Tomando el skectch del caso práctico 02, refactorizar su código para crear un servidor Web que permita encender el relay de manera remota utilizando la conexión WIFI a la red local, y dejar sin efecto el encendio mediante el pulsador. Para ver el código de la solución acceder a esta carpeta: [Práctico 03](sketchs/Practico%2003/)
 
