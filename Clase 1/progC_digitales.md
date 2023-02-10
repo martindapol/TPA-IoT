@@ -112,7 +112,7 @@ Para **comunicación Serie**
 ## Ejercitación
 
 > Caso práctico 02:
->* Desarrollar un sketch que permita encender/apagar un LED utilizando un pulsador. Al mismo tiempo permita activar/desactivar un Relay para simular el paso de corriente hacia cualquier dispositivo externo que se pretenda controlar.
+>* Desarrollar un sketch que permita encender/apagar un LED utilizando un pulsador. Al mismo tiempo permita activar/desactivar un Relay para simular el paso de corriente hacia cualquier dispositivo externo que se pretenda controlar. Se deja a modo de ejemplo un sketch que permite encender/apagar un Relay cada un segundo, y mostrar en una pantalla su estado [Solo relay](skectchs/Solo%20Relay/).
 >
 >* Agregar al sketch la posibilidad de mostrar mediante una pantalla LCD (16x2) que muestre el estado del LED (cadenas: ENCENDIDO!/APAGADO! respectivamente)
 Para ver el código de la solución acceder a esta carpeta: [Práctico 02](skectchs/Practico%2002/)

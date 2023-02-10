@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 113.08, "left": -157.22, "attrs": {} },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": 150.38, "left": -372.85, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 459.84,
+      "left": -178.8,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "relay1:VCC", "esp:VIN", "red", [ "h-46.99", "v-120.3" ] ],
+    [ "relay1:GND", "esp:GND.2", "black", [ "h-5.66", "v-139.8" ] ],
+    [ "relay1:IN", "esp:D26", "yellow", [ "v-161.85", "h159.01", "v-35.35" ] ],
+    [ "lcd1:SDA", "esp:D21", "blue", [ "h-25.77", "v-58.13", "h262.53", "v-276.73" ] ],
+    [ "lcd1:SCL", "esp:D22", "green", [ "h-37.7", "v-99.63", "h248.48", "v-273.63" ] ],
+    [ "lcd1:GND", "esp:GND.1", "black", [ "h-9.85", "v-78.29", "h141.25", "v-151.47" ] ],
+    [ "lcd1:VCC", "esp:3V3", "red", [ "v-71.87", "h143.34", "v-157.89" ] ]
+  ],
+  "dependencies": {}
+}
