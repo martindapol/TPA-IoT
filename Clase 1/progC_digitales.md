@@ -112,6 +112,14 @@ Para **comunicación Serie**
 ## Ejercitación
 
 > Caso práctico 02:
->* Desarrollar un sketch que permita encender/apagar un LED utilizando un pulsador.
+>* Desarrollar un sketch que permita encender/apagar un LED utilizando un pulsador. Al mismo tiempo permita activar/desactivar un Relay para simular el paso de corriente hacia cualquier dispositivo externo que se pretenda controlar.
+>
 >* Agregar al sketch la posibilidad de mostrar mediante una pantalla LCD (16x2) que muestre el estado del LED (cadenas: ENCENDIDO!/APAGADO! respectivamente)
 Para ver el código de la solución acceder a esta carpeta: [Práctico 02](skectchs/Practico%2002/)
+
+
+## Anexo
+
+### Comunicación I2C
+
+Para cumplimentar los requerimientos del ejercicio 02 es necesario conectar un LCD mediante adaptador I2C a la placa Esp32. Para ello es necesario conocer qué es y comó funciona este protocolo, tal como se muestra en el video de este link: [I2C explicado](https://www.youtube.com/watch?v=kuLgPLrg-cY).
