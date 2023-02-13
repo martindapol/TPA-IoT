@@ -38,7 +38,7 @@ Se conectan dos LED al ESP32 como se muestra en el siguiente diagrama esquemáti
 
 #### Código en Arduino IDE
 
-El código de este primer servidor esta [aquí](/sketchs/server_web.ino).
+El código de este primer servidor esta [aquí](/sketchs/Server_web/).
 
 Para que el código anterior funcione es necesario obtener el SSID y clave de la red local a la se va a conectar tanto el Esp32 como el movil o pc desde donde se quiera hacer la prueba. Luego de definir dichos valores como constantes en el sketch es necesario subir el código a la placa y obtener desde el Monitor Serial la dirección IP asignada a la tarjeta (tal como se muestra a modo de ejemplo en la siguiente imagen).
 

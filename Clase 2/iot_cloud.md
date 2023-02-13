@@ -76,7 +76,7 @@ Para un primer proyecto de aplicación se propone generar un conjunto de valores
 
 Lo primero es crear un canal llamado **Random IoT Values** con un solo campo llamado **sensor**. Una vez confirmados los datos del canal, de la pestaña de **API Key** copiar los valores de: Channel ID y Write API Key. Dichos valores serán utilizados en el sketch de Arduino IDE para inicializar la librería de la plataforma. 
 
-El código del proyecto se encuentra [aquí](/sketchs/random_values.ino)
+El código del proyecto se encuentra [aquí](/sketchs/Random_values/)
 
 
 ## Ejercitación
